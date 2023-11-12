@@ -18,7 +18,7 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Upgrade Node.js to version 16
+    - name: Upgrade Node.js to version 12
       run: |
         sudo apt-get update
         sudo apt-get install -y nodejs
